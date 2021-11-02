@@ -3,7 +3,7 @@ std tree Not pruned --
 Nodes: 10574, depth: 18
 
 
-
+	
 
 Train accuracy, depth wise
 For Normal train: [88.35987613359876, 88.35987613359876, 89.64001327140014, 89.79761114797611, 90.25934527759345, 91.34041141340411, 92.88044680380447, 94.15505419155055, 95.70614908206149, 97.1355894713559, 98.38531298385313, 99.13735899137359, 99.5686794956868, 99.81198849811989, 99.90599424905994, 99.96405662464056, 99.97235124972352, 99.98064587480646, 99.9834107498341]
@@ -37,3 +37,74 @@ CPU times: user 1h 6min 35s, sys: 1.16 s, total: 1h 6min 36s
 Wall time: 1h 6min 37s
 
 
+Neural Networks ---
+Hidden layers = 25
+
+No significant updates, EXITTING ----------------------
+Final Accuracy : 0.9233106757297082
+Final Error    : 0.2788876184325257
+epochs taken   : 7553
+Time Taken     : 08:20 (MM:SS)
+
+---------------------------------------------
+Hidden layers = 5
+
+This stopped at max epoch
+Final Accuracy : 0.6551779288284686
+Final Error    : 1.1451941583960905
+epochs taken   : 6000
+Stopping Value(for dff in 100 epochs err) : 0.0001
+
+--------------------------------------------
+
+
+
+For part d
+
+need to change stopping criteria - 0.00001
+
+
+Neural Network ReLu (part e)
+
+time Taken : 06:24
+Epochs taken = 1200
+Adaptive learning rate
+
+epoch 0     | error: 2.598367 | acc: 46.761295 
+epoch 100   | error: 2.103101 | acc: 52.115154 
+epoch 200   | error: 2.048145 | acc: 56.653339 
+epoch 300   | error: 1.927783 | acc: 62.990804 
+epoch 400   | error: 1.732724 | acc: 69.332267 
+epoch 500   | error: 1.480515 | acc: 76.785286 
+epoch 600   | error: 1.162381 | acc: 84.598161 
+epoch 700   | error: 0.836511 | acc: 90.531787 
+epoch 800   | error: 0.659460 | acc: 92.163135 
+epoch 900   | error: 0.592895 | acc: 92.299080 
+epoch 1000  | error: 0.555209 | acc: 92.327069 
+epoch 1100  | error: 0.529087 | acc: 92.331068 
+epoch 1200  | error: 0.512360 | acc: 92.331068
+
+For Test --
+Accuracy = 92.1474%
+
+
+
+Normal learning rate (6.36 iterations/sec)
+epoch 0     | error: 2.598367 | acc: 46.761295 
+epoch 20    | error: 2.102047 | acc: 54.174330 
+epoch 40    | error: 1.727880 | acc: 71.031587 
+epoch 60    | error: 0.598775 | acc: 92.235106 
+epoch 80    | error: 0.481530 | acc: 92.331068 
+epoch 100   | error: 0.452030 | acc: 92.331068 
+epoch 120   | error: 0.427272 | acc: 92.331068 
+epoch 140   | error: 0.412527 | acc: 92.331068 
+epoch 160   | error: 0.404499 | acc: 92.331068 
+epoch 180   | error: 0.400331 | acc: 92.331068 
+No significant updates, EXITTING ----------------------
+Final Accuracy : 0.9233106757297082
+Final Error    : 0.4003308427625953
+epochs taken   : 200
+Stopping Value(for dff in 100 epochs err) : 0.003
+
+For Test --
+Accuracy = 92.3373%
